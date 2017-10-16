@@ -11,10 +11,6 @@
 
 [📖 **Release Notes**](./CHANGELOG.md)
 
-## Features
-
-The module features
-
 ## Setup
 - Add `@nuxtjs/webpackmonitor` dependency using yarn or npm to your project
 
