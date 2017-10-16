@@ -1,0 +1,38 @@
+{
+  "name": "@nuxtjs/webpackmonitor",
+  "version": "0.0.0",
+  "description": "Monitor Nuxt webpack optimization metrics through the development process",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Pooya Parsa <pooya@pi0.ir>"
+    }
+  ],
+  "main": "lib/module.js",
+  "repository": "https://github.com/nuxt-community/webpackmonitor-module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "lint": "eslint lib test",
+    "test": "npm run lint && jest",
+    "release": "standard-version && git push --follow-tags && npm publish"
+  },
+  "eslintIgnore": [
+    "lib/templates/*.*"
+  ],
+  "files": [
+    "lib"
+  ],
+  "jest": {
+    "testEnvironment": "node",
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
+  },
+  "dependencies": {
+    "@pi0/webpack-monitor": "^0.0.3"
+  },
+  "devDependencies": {
+    "nuxt-module-builder": "latest"
+  }
+}
