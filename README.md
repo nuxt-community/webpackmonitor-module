@@ -11,6 +11,8 @@
 
 [📖 **Release Notes**](./CHANGELOG.md)
 
+<img src="https://camo.githubusercontent.com/acb0c92759578da7cbbdcd38a57fa682bedcc83b/68747470733a2f2f726f6163686a632e6769746875622e696f2f6d61696e332e676966"/>
+
 ## Setup
 - Add `@nuxtjs/webpackmonitor` dependency using yarn or npm to your project
 
