@@ -30,7 +30,7 @@
     "collectCoverage": true
   },
   "dependencies": {
-    "@pi0/webpack-monitor": "^0.0.3"
+    "@pi0/webpack-monitor": "^0.0.4"
   },
   "devDependencies": {
     "nuxt-module-builder": "latest"
