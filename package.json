@@ -1,6 +1,6 @@
 {
   "name": "@nuxtjs/webpackmonitor",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Monitor Nuxt webpack optimization metrics through the development process",
   "license": "MIT",
   "contributors": [
