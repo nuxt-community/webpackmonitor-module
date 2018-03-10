@@ -32,11 +32,22 @@
 
 This module automatically captures stats from each **Production** build into `.monitor/stats.json` file if there was any diff.
 
-You can use `npx nuxt build --webpackmonitor` or `yarn nuxt build --webpackmonitor` to launch monitor dashboard in your browser after build.
+You can use `npx nuxt build --webpackmonitor --analyze` or `yarn nuxt build --webpackmonitor --analyze` to launch the monitor dashboard in your browser after build.
 
 ## Options
 
-To customize defaults you can add `webpackMonitor` key to `nuxt.config.js`.
+To customize defaults you can specify options via `nuxt.config.js`:
+```
+modules: [
+    [
+      '@nuxtjs/webpackmonitor',
+      {
+        target: '~.monitor/stats.json',
+        port: 4444,
+      }
+    ]
+  ],
+```
 See [here](https://github.com/webpackmonitor/webpackmonitor) for possible options.
 
 ## License
