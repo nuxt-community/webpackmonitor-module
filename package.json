@@ -3,11 +3,9 @@
   "version": "0.1.0",
   "description": "Monitor Nuxt webpack optimization metrics through the development process",
   "license": "MIT",
-  "contributors": [
-    {
-      "name": "Pooya Parsa <pooya@pi0.ir>"
-    }
-  ],
+  "contributors": [{
+    "name": "Pooya Parsa <pooya@pi0.ir>"
+  }],
   "main": "lib/module.js",
   "repository": "https://github.com/nuxt-community/webpackmonitor-module",
   "publishConfig": {
@@ -30,7 +28,7 @@
     "collectCoverage": true
   },
   "dependencies": {
-    "webpack-monitor": "^1.0.13"
+    "kalis-webpack-monitor": "^1.0.1"
   },
   "devDependencies": {
     "nuxt-module-builder": "latest"
