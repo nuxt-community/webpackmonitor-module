@@ -1,5 +1,7 @@
 # Webpack Monitor Module
 
+> _Please note that Webpack Monitor is **NOT** currently maintained - sorry_ 😢
+
 [![npm (scoped with tag)](https://img.shields.io/npm/v/@nuxtjs/webpackmonitor/latest.svg?style=flat-square)](https://npmjs.com/package/@nuxtjs/webpackmonitor)
 [![npm](https://img.shields.io/npm/dt/@nuxtjs/webpackmonitor.svg?style=flat-square)](https://npmjs.com/package/@nuxtjs/webpackmonitor)
 [![CircleCI](https://img.shields.io/circleci/project/github/nuxt-community/webpackmonitor-module.svg?style=flat-square)](https://circleci.com/gh/nuxt-community/webpackmonitor-module)
